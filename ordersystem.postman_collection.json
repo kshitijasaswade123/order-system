@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "61f97a93-a6d7-4946-8834-9d40b9c878b4",
+		"name": "ordersystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32248950"
+	},
+	"item": [
+		{
+			"name": "https://order-system-xwm0.onrender.com/api/orderdata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://order-system-xwm0.onrender.com/api/orderdata",
+					"protocol": "https",
+					"host": [
+						"order-system-xwm0",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"orderdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://order-system-xwm0.onrender.com/api/orderdata",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"user_id\":\"2\",\r\n     \"total_price\":\"100\",\r\n     \"status\":\"completed\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://order-system-xwm0.onrender.com/api/orderdata",
+					"protocol": "https",
+					"host": [
+						"order-system-xwm0",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"orderdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://order-system-xwm0.onrender.com/api/orderdata/65e2d61f7508118e3f18fbc0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"user_id\":\"2\",\r\n     \"total_price\":\"100\",\r\n     \"status\":\"failed\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://order-system-xwm0.onrender.com/api/orderdata/65e2d61f7508118e3f18fbc0",
+					"protocol": "https",
+					"host": [
+						"order-system-xwm0",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"orderdata",
+						"65e2d61f7508118e3f18fbc0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://order-system-xwm0.onrender.com/api/orderdata/65e2d61f7508118e3f18fbc0",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://order-system-xwm0.onrender.com/api/orderdata/65e2d61f7508118e3f18fbc0",
+					"protocol": "https",
+					"host": [
+						"order-system-xwm0",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"orderdata",
+						"65e2d61f7508118e3f18fbc0"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
